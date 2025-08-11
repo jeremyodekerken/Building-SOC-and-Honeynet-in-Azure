@@ -13,11 +13,11 @@ In this project, I deployed a mini honeynet in Microsoft Azure and configured mu
 - AzureNetworkAnalytics_CL (Malicious Flows allowed into our honeynet)
 
 ## Architecture Before Hardening and Enabling Security Controls
-(<img width="960" height="720" alt="image" src="https://github.com/user-attachments/assets/04cf76ff-d1dd-4aca-91b1-b68fa0703089" />
+<img width="960" height="720" alt="image" src="https://github.com/user-attachments/assets/04cf76ff-d1dd-4aca-91b1-b68fa0703089" />
 
 
 ## Architecture After Hardening and Enabling Security Controls
-(<img width="960" height="720" alt="image" src="https://github.com/user-attachments/assets/17bab685-5a0b-40e1-a706-9c7d90661360" />
+<img width="960" height="720" alt="image" src="https://github.com/user-attachments/assets/17bab685-5a0b-40e1-a706-9c7d90661360" />
 
 
 The architecture of the mini honeynet in Azure consists of the following components:
@@ -38,11 +38,11 @@ Network Security Groups were hardened to block all inbound traffic except from m
 
 
 ## Attack Maps Before Hardening / Security Controls
-![NSG Allowed Inbound Malicious Flows](<img width="1494" height="830" alt="image" src="https://github.com/user-attachments/assets/84ebee27-22cc-4a47-8fd6-00af33449eee" />
+[NSG Allowed Inbound Malicious Flows](<img width="1494" height="830" alt="image" src="https://github.com/user-attachments/assets/84ebee27-22cc-4a47-8fd6-00af33449eee" />
 <br>
-![Linux Syslog Auth Failures](<img width="1500" height="752" alt="image" src="https://github.com/user-attachments/assets/fc5c3e37-7ca7-4ce0-9161-4025acd93ae0" />
+[Linux Syslog Auth Failures](<img width="1500" height="752" alt="image" src="https://github.com/user-attachments/assets/fc5c3e37-7ca7-4ce0-9161-4025acd93ae0" />
 <br>
-![Windows RDP/SMB Auth Failures](<img width="2208" height="1238" alt="image" src="https://github.com/user-attachments/assets/f0c84419-aec7-4c04-9d7e-d25de6e5a8ca" />
+[Windows RDP/SMB Auth Failures](<img width="2208" height="1238" alt="image" src="https://github.com/user-attachments/assets/f0c84419-aec7-4c04-9d7e-d25de6e5a8ca" />
 <br>
 
 ## Metrics Before Hardening / Security Controls
