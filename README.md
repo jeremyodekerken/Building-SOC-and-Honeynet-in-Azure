@@ -38,11 +38,11 @@ Network Security Groups were hardened to block all inbound traffic except from m
 
 
 ## Attack Maps Before Hardening / Security Controls
-[NSG Allowed Inbound Malicious Flows](<img width="1494" height="830" alt="image" src="https://github.com/user-attachments/assets/84ebee27-22cc-4a47-8fd6-00af33449eee" />
+<img width="1494" height="830" alt="image" src="https://github.com/user-attachments/assets/84ebee27-22cc-4a47-8fd6-00af33449eee" />
 <br>
-[Linux Syslog Auth Failures](<img width="1500" height="752" alt="image" src="https://github.com/user-attachments/assets/fc5c3e37-7ca7-4ce0-9161-4025acd93ae0" />
+<img width="1500" height="752" alt="image" src="https://github.com/user-attachments/assets/fc5c3e37-7ca7-4ce0-9161-4025acd93ae0" />
 <br>
-[Windows RDP/SMB Auth Failures](<img width="2208" height="1238" alt="image" src="https://github.com/user-attachments/assets/f0c84419-aec7-4c04-9d7e-d25de6e5a8ca" />
+<img width="2208" height="1238" alt="image" src="https://github.com/user-attachments/assets/f0c84419-aec7-4c04-9d7e-d25de6e5a8ca" />
 <br>
 
 ## Metrics Before Hardening / Security Controls
