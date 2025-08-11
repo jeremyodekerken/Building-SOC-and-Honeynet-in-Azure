@@ -42,21 +42,23 @@ Network Security Groups were hardened to block all inbound traffic except from m
 <br>
 ![Linux Syslog Auth Failures](<img width="1500" height="752" alt="image" src="https://github.com/user-attachments/assets/fc5c3e37-7ca7-4ce0-9161-4025acd93ae0" />
 <br>
-![Windows RDP/SMB Auth Failures]()<br>
+![Windows RDP/SMB Auth Failures](<img width="2208" height="1238" alt="image" src="https://github.com/user-attachments/assets/f0c84419-aec7-4c04-9d7e-d25de6e5a8ca" />
+<br>
 
 ## Metrics Before Hardening / Security Controls
 
 The following table shows the metrics we measured in our insecure environment for 24 hours:
-Start Time 2025-08-10 00:06:09
-Stop Time 2025-08-11 00:04:29
+Start Time 2025-08-09 00:06:09
+Stop Time 2025-08-10 00:04:29
 
-| Metric                   | Count
-| ------------------------ | -----
-| SecurityEvent            | 19470
-| Syslog                   | 3028
-| SecurityAlert            | 10
-| SecurityIncident         | 348
-| AzureNetworkAnalytics_CL | 843
+| Metric                   | Count          |
+| ------------------------ | -------------- |
+| SecurityEvent            | 15348          |
+| Syslog                   | 2765           |
+| SecurityAlert            | 18             |
+| SecurityIncident         | 491            |
+| AzureNetworkAnalytics_CL | 1027           |
+
 
 ## Attack Maps Before Hardening / Security Controls
 
@@ -65,16 +67,16 @@ Stop Time 2025-08-11 00:04:29
 ## Metrics After Hardening / Security Controls
 
 The following table shows the metrics we measured in our environment for another 24 hours, but after we have applied security controls:
-Start Time 2023-03-18 15:37
-Stop Time	2023-03-19 15:37
+Start Time 2025-08-10 06:17
+Stop Time	2025-08-11 09:51
 
-| Metric                   | Count
-| ------------------------ | -----
-| SecurityEvent            | 8778
-| Syslog                   | 25
-| SecurityAlert            | 0
-| SecurityIncident         | 0
-| AzureNetworkAnalytics_CL | 0
+| Metric                   | Count         | % Change   |
+| ------------------------ | ------------- | ---------- |
+| SecurityEvent            | 6900          | -55.05%    |
+| Syslog                   | 22            | -99.20%    |
+| SecurityAlert            | 0             | -100.00%   |
+| SecurityIncident         | 0             | -100.00%   |
+| AzureNetworkAnalytics_CL | 0             | -100.00%   |
 
 ## Conclusion
 
