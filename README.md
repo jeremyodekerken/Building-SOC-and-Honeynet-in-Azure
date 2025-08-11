@@ -38,12 +38,13 @@ Network Security Groups were hardened to block all inbound traffic except from m
 
 
 ## Attack Maps Before Hardening / Security Controls
-<img width="1494" height="830" alt="image" src="https://github.com/user-attachments/assets/84ebee27-22cc-4a47-8fd6-00af33449eee" />
-<br>
+<img width="717" height="390" alt="image" src="https://github.com/user-attachments/assets/41cf83bc-d639-46c9-bd27-19a8bceb4b47" />
+
 <img width="723" height="367" alt="image" src="https://github.com/user-attachments/assets/933444ab-5e9d-48e6-afdc-6a4d5988897d" />
 
 <br>
-<img width="2208" height="1238" alt="image" src="https://github.com/user-attachments/assets/f0c84419-aec7-4c04-9d7e-d25de6e5a8ca" />
+<img width="1096" height="609" alt="image" src="https://github.com/user-attachments/assets/a8aebf87-5325-43f4-93ee-4a6c305739a8" />
+
 <br>
 
 ## Metrics Before Hardening / Security Controls
